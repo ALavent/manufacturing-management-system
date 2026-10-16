@@ -1,4 +1,4 @@
-# 🏭 Manufacturing Management System & Visual Database Builder
+#  Manufacturing Management System & Visual Database Builder
 
 A modern, interactive web-based Database Management System interface using **Java Servlets**, **JDBC**, and **MySQL** to perform real-time **DDL**, **DML**, and **DQL** operations without requiring manual SQL writing.
 
@@ -9,19 +9,19 @@ A modern, interactive web-based Database Management System interface using **Jav
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
-- ✨ **Visual No-Code Table Creator**: Create custom tables simply by typing column names, choosing types (`INT`, `VARCHAR`, `DECIMAL`, `DATE`, `TEXT`), setting constraints (`Primary Key`, `Auto Increment`, `Not Null`), and typing initial rows in an interactive grid.
-- 🔍 **Real-Time SQL Preview**: Dynamic syntax engine generates safe, backtick-escaped SQL statements live as you configure table schemas.
-- 📂 **Database Explorer & Inline Data Inserter**: Select any existing database table (`products`, `orders`, `suppliers`, custom tables), inspect records, and insert new data directly from an inline form.
-- 💻 **Advanced Raw SQL Terminal**: Direct query editor supporting DQL (`SELECT`), DML (`INSERT`, `UPDATE`, `DELETE`), and DDL (`CREATE`, `ALTER`, `DROP`).
-- 🔐 **Authentication System**: Role-based access control with session management.
-- 🔌 **Dual Database Engine Support**: Connects directly to **MySQL Server 8.4** on port `3306` with automatic zero-configuration fallback to an embedded **H2** database.
-- ⚡ **1-Click Launch Scripts**: Pre-configured Windows batch files for instant setup.
+-  **Visual No-Code Table Creator**: Create custom tables simply by typing column names, choosing types (`INT`, `VARCHAR`, `DECIMAL`, `DATE`, `TEXT`), setting constraints (`Primary Key`, `Auto Increment`, `Not Null`), and typing initial rows in an interactive grid.
+-  **Real-Time SQL Preview**: Dynamic syntax engine generates safe, backtick-escaped SQL statements live as you configure table schemas.
+-  **Database Explorer & Inline Data Inserter**: Select any existing database table (`products`, `orders`, `suppliers`, custom tables), inspect records, and insert new data directly from an inline form.
+-  **Advanced Raw SQL Terminal**: Direct query editor supporting DQL (`SELECT`), DML (`INSERT`, `UPDATE`, `DELETE`), and DDL (`CREATE`, `ALTER`, `DROP`).
+-  **Authentication System**: Role-based access control with session management.
+-  **Dual Database Engine Support**: Connects directly to **MySQL Server 8.4** on port `3306` with automatic zero-configuration fallback to an embedded **H2** database.
+-  **1-Click Launch Scripts**: Pre-configured Windows batch files for instant setup.
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Backend**: Java Servlets 6.0, JDBC (Type 4 Pure Java Driver), Embedded Apache Tomcat 10
 - **Frontend**: JSP, HTML5, CSS3 (Modern Glassmorphic UI), JavaScript (ES6 Fetch API)
@@ -31,7 +31,7 @@ A modern, interactive web-based Database Management System interface using **Jav
 
 ---
 
-## 🚀 Quick Start (Windows)
+##  Quick Start (Windows)
 
 ### 1. Start MySQL Server (Port 3306)
 Double-click:
@@ -55,7 +55,7 @@ Visit: **[http://localhost:8085/](http://localhost:8085/)**
 
 ---
 
-## 🔑 Default Credentials
+##  Default Credentials
 
 | Username | Password | Role |
 | :--- | :--- | :--- |
@@ -64,7 +64,7 @@ Visit: **[http://localhost:8085/](http://localhost:8085/)**
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 dbms project/
@@ -98,7 +98,7 @@ dbms project/
 
 ---
 
-## 🔌 JDBC and ODBC Connectivity Architecture
+##  JDBC and ODBC Connectivity Architecture
 
 1. **JDBC (Java Database Connectivity)**:
    - Uses the official MySQL Connector/J **Type 4 Direct JDBC driver**.
