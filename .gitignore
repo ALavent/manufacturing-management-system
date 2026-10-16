@@ -1,0 +1,36 @@
+# Compiled class files
+*.class
+target/
+
+# Log files
+*.log
+
+# IDE specific files
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Database
+*.sql~
+database/*.db
+database/*.mv.db
+database/*.trace.db
+
+# Other
+.claude/
+tomcat.*/
+work/
+
+

@@ -1,0 +1,3 @@
+@echo off
+echo Connecting to MySQL manufacturing_db...
+"C:\Program Files\MySQL\MySQL Server 8.4\bin\mysql.exe" -u root -papple6969 manufacturing_db
